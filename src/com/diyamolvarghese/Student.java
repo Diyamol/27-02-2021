@@ -158,6 +158,37 @@ public class Student {
 
 
     public void calculateGrade(){
+        if(percentage>=94)
+        {
+            grade="A+";
+        }
+        else if(percentage>=87){
+            grade="A";
+        }
+        else if(percentage>=80){
+            grade="A-";
+        }
+        else if(percentage>=77){
+            grade="B+";
+        }
+        else if(percentage>=73){
+            grade="B";
+        }else if(percentage>=70){
+            grade="B-";
+        }else if(percentage>=67){
+            grade="C+";
+        }
+        else if(percentage>=63){
+            grade="C";
+        }
+        else if(percentage>=60){
+            grade="C-";
+        }else if(percentage>=50){
+            grade="D";
+        }else {
+            grade="F";
+        }
+
 
     }
 }
